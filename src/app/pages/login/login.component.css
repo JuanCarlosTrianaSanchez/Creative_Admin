@@ -2,7 +2,7 @@
 - General styles
 ==================== */
 
-main {
+/* main {
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -51,4 +51,71 @@ form button[type="submit"] {
 
 form button[type="submit"]:hover {
     background-color: rgb(25, 25, 222);
+} */
+/* Estilos CSS para el formulario de login */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f1ea; /* Color de fondo claro */
+}
+
+#login {
+  background-color: #e0d7c9; /* Color de fondo del formulario */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  max-width: 400px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4a4a4a; /* Color del título en tono sepia */
+}
+
+p {
+  text-align: center;
+  color: #4a4a4a; /* Color del texto en tono sepia */
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  color: #4a4a4a;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+
+button {
+  background-color: #6c5b7b;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #563d67;
 }
